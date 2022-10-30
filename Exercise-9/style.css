@@ -1,0 +1,231 @@
+body{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  background: rgb(255, 248, 248);
+}
+@media only screen and (max-width: 768px){
+ body{
+  flex-basis: calc(100%/3);
+ }}
+ @media only screen and (max-width: 375px){
+  body{
+   flex-basis: calc(100%/2);
+  }
+}
+.card1{
+    display: flex;
+    border: 1px solid rgb(113, 112, 112);
+    border-radius: 13px;
+    flex-direction:column;
+    width:fit-content;
+    background: rgb(218,218,218);
+    background: linear-gradient(0deg, rgba(218,218,218,1) 0%, rgba(117,116,116,1) 100%);
+    margin-bottom: 50px;
+
+}
+  .header1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  .avatar1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-right:  5px;
+    margin-bottom: 5px;
+    order: 0;
+  }
+  .name1{
+    order: 0;
+  }
+  .header1fullname1{
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 0px;
+    font-family: 'Courier New';
+  }
+  .header1fullname2{
+    color: white;
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .threepoints1{
+    font-size: 40px;
+    font-weight: bolder;
+    order: 1;
+    margin-top: 0;
+    padding-left: 127px;
+    text-align: center;
+  }
+
+  .likecomment1{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+.footer1{
+  width:320px;
+  font-size: 18px;
+  margin-left: 14px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  
+}
+#text1{
+  font-weight: bold;
+}
+
+.card2{
+  display: flex;
+  border: 1px solid rgb(113, 112, 112);
+  border-radius: 13px;
+  flex-direction:column;
+  width:fit-content;
+  background: rgb(218,218,218);
+  background: linear-gradient(0deg, rgba(218,218,218,1) 0%, rgba(117,116,116,1) 100%);
+  margin-bottom: 50px;
+
+}
+.header2{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.avatar2{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 7px;
+  margin-right:  5px;
+  margin-bottom: 5px;
+  order: 0;
+}
+.name2{
+  order: 0;
+}
+.header2fullname1{
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-family: 'Courier New';
+}
+.header2fullname2{
+  color: white;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.threepoints2{
+  font-size: 40px;
+  font-weight: bolder;
+  order: 1;
+  margin-top: 0;
+  padding-left: 148px;
+  text-align: center;
+}
+
+.likecomment2{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.footer2{
+width:320px;
+font-size: 18px;
+margin-left: 14px;
+margin-top: 0px;
+font-family: sans-serif;
+
+}
+#text2{
+font-weight: bold;
+}
+
+.card3{
+  display: flex;
+  border: 1px solid rgb(113, 112, 112);
+  border-radius: 13px;
+  flex-direction:column;
+  width:fit-content;
+  background: rgb(218,218,218);
+  background: linear-gradient(0deg, rgba(218,218,218,1) 0%, rgba(117,116,116,1) 100%);
+  margin-bottom: 50px;
+
+}
+.header3{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.avatar3{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 7px;
+  margin-right:  5px;
+  margin-bottom: 5px;
+  order: 0;
+}
+.name3{
+  order: 0;
+}
+.header3fullname1{
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-family: 'Courier New';
+}
+.header3fullname2{
+  color: white;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.threepoints3{
+  font-size: 40px;
+  font-weight: bolder;
+  order: 1;
+  margin-top: 0;
+  padding-left: 97px;
+  text-align: center;
+}
+
+.likecomment3{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.footer3{
+width:320px;
+font-size: 18px;
+margin-left: 14px;
+margin-top: 0px;
+font-family: sans-serif;
+
+}
+#text3{
+font-weight: bold;
+}
+
+
+
+
